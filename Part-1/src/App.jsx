@@ -5,6 +5,7 @@ import UseState from './components/UseState'
 import LiftStateUp from './pages/LiftStateUp'
 import StopWatch from './pages/StopWatch'
 import Fetch from './pages/Fetch'
+import DropDown from './pages/DropDown'
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
       <Route path='/liftStateUp' element={<LiftStateUp />} />
       <Route path='/stopWatch' element={<StopWatch />} />
       <Route path='/fetch' element={<Fetch />} />
-      <Route path='/drop' element={< />} />
+      <Route path='/drop' element={<DropDown />} />
 
 
     </Routes>
