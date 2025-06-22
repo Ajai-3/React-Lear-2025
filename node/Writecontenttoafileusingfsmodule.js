@@ -5,7 +5,7 @@ fs.writeFile("./text.txt", "helllooo", (err) => {
         console.log(err)
         return
     }
-    fs.unlink("./text.txt", (err) => {
+    fs.unlink("./text.txt", (e
         if (err) {
             console.log(err)
         }
